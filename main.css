@@ -36,7 +36,7 @@ body{
 }
 
 #logoCap{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #contB{
@@ -102,6 +102,16 @@ body{
 }
 
 #linkA{
+    text-decoration: none;
+    color: black;
+}
+
+.link_a,.link_a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.link_b,.link_b:hover{
     text-decoration: none;
     color: black;
 }
