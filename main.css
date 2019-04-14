@@ -2,15 +2,6 @@ body{
     font-size: 14px;
 }
 
-#mainDiv{
-    width: 100%;
-    height: 100%;
-    background: black;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
 #mainImg{
     height: 100%;
     width: 100%;
@@ -46,6 +37,15 @@ body{
 }
 
 @media only screen and (max-width: 600px){
+
+    #mainDiv{
+        width: 100%;
+        background: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
     .spanA{
         display: none;
     }
@@ -63,6 +63,16 @@ body{
 }
 
 @media only screen and (min-width: 600px){
+
+    #mainDiv{
+        width: 100%;
+        height: 100%;
+        background: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
     .spanA{
         margin-right: 20px;
         cursor: pointer;
