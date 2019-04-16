@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <div id="floater">
+    <div id="floater" onclick="moveDiv()">
         <i class="fas fa-home"></i>&emsp;&nbsp;<a href="#mainWindow" class="link_b">Home</a>
         <br />
         <i class="fas fa-coffee"></i>&emsp;<a href="#contB" class="link_b">Services</a>
@@ -48,7 +48,7 @@
         <div id="mainDiv">
             <img id="mainImg" src="res/sample.jpg">
         </div>
-        <div class="container" id="contA">
+        <div class="container-fluid" id="contA">
             <div class="row">
                 <div class="col-sm-12">
                     <!----img id="logoImg" src="favicon.ico" /--><span id="logoCap">Perfect Windows Solution</span>
@@ -59,8 +59,8 @@
                         <span class="spanA"><a href="#contD" class="link_a">Features</a></span>
                         <span class="spanA"><a href="#about" class="link_a">About</a></span>
                         <span class="spanA"><a href="#contE" class="link_a">Contact</a></span>
-                        <span class="spanB" onclick="animate()"><i class="fa fa-bars" aria-hidden="true"></i></span>
                     </div>
+                    <div class="spanB" onclick="moveDiv()"><i class="fa fa-bars" aria-hidden="true"></i></div>
                 </div>
             </div>
             <div class="row">
@@ -173,6 +173,104 @@
                 <div class="col-sm-4 colA">
                     <h5 style="font-weight:bold">Eco Friendly</h5>
                     <span style="font-size:50px"><i class="fas fa-leaf    "></i></span>
+                </div>
+            </div>
+
+            <!--Comparison Chart-->
+
+            <div class="row" style="margin-top:50px" id="contD">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 text-center">
+                    <h2 style="font-weight:bold">Comparison Chart</h2>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:50px" id="contD">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <table class="table table-striped table-hover table-responsive">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>Steel</th>
+                                <th>Aluminium</th>
+                                <th>Wood</th>
+                                <th>UPVC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Installation</td>
+                                <td>Poor</td>
+                                <td>Fair</td>
+                                <td>Fair</td>
+                                <td>Easy and Excellent</td>
+                            </tr>
+                            <tr>
+                                <td>Maintenance</td>
+                                <td>Painting</td>
+                                <td>Powder Coating</td>
+                                <td>Painting/Polishing</td>
+                                <td>No Painting Required</td>
+                            </tr>
+                            <tr>
+                                <td>Aesthetics</td>
+                                <td>Poor</td>
+                                <td>Poor</td>
+                                <td>Good</td>
+                                <td>Modern and Elegant</td>
+                            </tr>
+                            <tr>
+                                <td>Durability</td>
+                                <td>Fair</td>
+                                <td>Fair</td>
+                                <td>Warpae/Shrinkage</td>
+                                <td>Excellent</td>
+                            </tr>
+                            <tr>
+                                <td>Thermal Conductivity</td>
+                                <td>High</td>
+                                <td>High</td>
+                                <td>Fair</td>
+                                <td>Zero Conductivity</td>
+                            </tr>
+                            <tr>
+                                <td>Sound</td>
+                                <td>Poor</td>
+                                <td>Poor</td>
+                                <td>Poor</td>
+                                <td>Sound Proof</td>
+                            </tr>
+                            <tr>
+                                <td>Chemical Resistance</td>
+                                <td>Corrodes</td>
+                                <td>Corrodes</td>
+                                <td>Rots</td>
+                                <td>No Effects</td>
+                            </tr>
+                            <tr>
+                                <td>Safety</td>
+                                <td>Good</td>
+                                <td>Fair</td>
+                                <td>Poor</td>
+                                <td>Excellent</td>
+                            </tr>
+                            <tr>
+                                <td>Cost</td>
+                                <td>Fair</td>
+                                <td>Fair</td>
+                                <td>Expensive</td>
+                                <td>Affordable in Long Terms</td>
+                            </tr>
+                            <tr>
+                                <td>Strength</td>
+                                <td>Good</td>
+                                <td>Fair</td>
+                                <td>Good</td>
+                                <td>Reinforcement Available</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 

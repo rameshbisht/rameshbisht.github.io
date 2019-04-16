@@ -1,17 +1,15 @@
-var tog = false;
+var tog = true;
 
-var slide = () => {
-    alert('Hello')
-    $("#mainWindow").animate({ left: '-500px' });
-}
-
-var animate = () => {
-    alert('Animated')
+var moveDiv = () => {
 
     if (tog) {
-        $("p").animate({ left: "+=100px" });
+        $("#mainWindow").animate({ left: '-=50%' }, 500);
+        $("#floater").animate({ left: '-=50%' }, 500);
+        $("body").css("overflow-y", "hidden");
     } else {
-        $("p").animate({ left: "+=100px" });
+        $("#mainWindow").animate({ left: '+=50%' }, 500);
+        $("#floater").animate({ left: '+=50%' }, 500);
+        $("body").css("overflow-y", "auto");
     }
 
     tog = !tog;
