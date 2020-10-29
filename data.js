@@ -248,7 +248,7 @@ data = [
   },
   {
     "thumbnail": "res\\24\\1.jpg",
-    "title": "loral epsum",
+    "title": "Near DPS school Chappar chiri ,posh city, Plot number 92",
     "slides": [
       { "src": "res\\24\\1.jpg", "w": 1080, "h": 497 },
       { "src": "res\\24\\2.jpg", "w": 640, "h": 1403 },
